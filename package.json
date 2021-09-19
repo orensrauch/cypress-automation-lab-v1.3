@@ -1,0 +1,30 @@
+{
+  "name": "cypress-automation-lab-v1.3",
+  "version": "1.0.0",
+  "description": "Implemanting ci with cypress on demo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orensrauch/cypress-automation-lab-v1.3.git"
+  },
+  "keywords": [
+    "cypress",
+    "jekins",
+    "ci",
+    "automation",
+    "test"
+  ],
+  "author": "oren schuller rauch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orensrauch/cypress-automation-lab-v1.3/issues"
+  },
+  "homepage": "https://github.com/orensrauch/cypress-automation-lab-v1.3#readme",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "prettier": "^2.4.1"
+  }
+}
