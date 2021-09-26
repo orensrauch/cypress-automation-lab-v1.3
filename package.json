@@ -5,8 +5,11 @@
 	"main": "index.js",
 	"scripts": {
 		"cy:open": "cypress open",
-		"cy:run": "cypress run",
-		"cy:run-dashboard": "cypress run --record --key 7d294511-24d3-4f55-8038-73f157710433"
+		"cy:run:chrome": "cypress run --browser chrome",
+		"cy:run:firefox": "cypress run --browser firefox",
+		"cy:run:electron": "cypress run --browser electron",
+		"cy:run-dashboard": "cypress run --record --key 7d294511-24d3-4f55-8038-73f157710433",
+		"jenkins": "java -Dfile.encoding=UTF-8 -jar jenkins.war --httpPort=8080"
 	},
 	"repository": {
 		"type": "git",
